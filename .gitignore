@@ -1,0 +1,13 @@
+*/.DS_Store
+*/.idea
+*/.vscode
+*/.vs
+*/.git
+*/.svn
+*/.hg
+*/.tox
+*/.nox
+*/.pytest_cache
+*/.mypy_cache
+*/.coverage
+*/.cache

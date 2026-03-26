@@ -1,0 +1,11 @@
+{
+  "name": "alexa-chatgpt-skill",
+  "version": "1.0.0",
+  "description": "Alexa-hosted custom skill that calls OpenAI",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "ask-sdk-core": "^2.14.0",
+    "openai": "^6.0.1"
+  }
+}

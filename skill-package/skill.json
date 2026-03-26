@@ -1,0 +1,62 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "ChatGPT Assistant",
+          "summary": "Ask ChatGPT questions through Alexa.",
+          "description": "A simple Alexa-hosted custom skill that sends user questions to OpenAI and speaks back the response.",
+          "examplePhrases": [
+            "Alexa, open chat assistant",
+            "Alexa, ask chat assistant what is a black hole",
+            "Alexa, ask chat assistant explain cloud computing"
+          ],
+          "keywords": [
+            "chatgpt",
+            "ai",
+            "assistant",
+            "questions"
+          ]
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Open the skill and ask a question. Make sure OPENAI_API_KEY is configured in the Alexa-hosted Lambda environment variables.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "ask-custom-chatgpt-skill-default"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [],
+    "events": {
+      "publications": [],
+      "subscriptions": [],
+      "regions": {
+        "NA": {},
+        "EU": {},
+        "FE": {}
+      }
+    },
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isPurchasable": false,
+      "usesHealthInfo": false,
+      "usesKidDirected": false,
+      "locales": {
+        "en-US": {
+          "privacyPolicyUrl": "https://example.com/privacy",
+          "termsOfUseUrl": "https://example.com/terms"
+        }
+      }
+    }
+  }
+}
